@@ -8,24 +8,24 @@
 
 
 ### Installation
-1. (Recommended) Create a virtualenv to enclose the repo
-2. Install the prerequisite modules
+- (Recommended) Create a virtualenv to enclose the repo
+- Install the prerequisite modules
 
 ```
 pip install -r requirements.txt
 ```
 
-3. python server.py
+- python server.py
 
 
 ### Testing with HTTPie (recommended)
-1. Install HTTPie
+- Install HTTPie
 
 ```
 pip install --upgrade httpie
 ```
 
-2. Run some test commands in shell
+- Run some test commands in shell
 
 ```
 $ http http://127.0.0.1:5000/api/v1.0/tasks/1
@@ -36,5 +36,5 @@ $ http get http://127.0.0.1:5000/api/v1.0/query title=lol name=jason
 ```
 
 
-### Testing with Python 
+### Testing with Python
 Run `client.py` for the above example replicated in Python using the Requests library
